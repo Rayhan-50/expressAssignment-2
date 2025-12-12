@@ -25,7 +25,7 @@ const getVehicleByIdFromDB = async (vehicleId: string) => {
 }
 
 const updateVehicleIntoDB = async (vehicleId: string, payload: any) => {
-    // Check if vehicle exists
+   
     const vehicleCheck = await pool.query(`SELECT * FROM vehicles WHERE id = $1`, [vehicleId]);
     if (vehicleCheck.rows.length === 0) {
         throw new Error("Vehicle not found");
@@ -33,7 +33,7 @@ const updateVehicleIntoDB = async (vehicleId: string, payload: any) => {
 
     const { vehicle_name, type, registration_number, daily_rent_price, availability_status } = payload;
 
-    // Construct dynamic query
+   
     let updateQuery = 'UPDATE vehicles SET';
     const upgradeValues = [];
     let count = 1;
