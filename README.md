@@ -2,7 +2,7 @@
 
 A comprehensive backend API for a vehicle rental management system. This application allows customers to browse vehicles and make bookings, while providing administrators with full control over inventory, users, and booking statuses.
 
-**Live URL:** [Insert Live URL Here]
+**Live URL:** [Vehicle Rental System API](https://expresserver.vercel.app/)
 
 ---
 
@@ -45,7 +45,7 @@ A comprehensive backend API for a vehicle rental management system. This applica
 
 1.  **Clone the repository:**
     ```bash
-    git clone <repository-url>
+    git clone https://github.com/Rayhan-50/expressAssignment-2.git
     cd assignment-2
     ```
 
@@ -86,4 +86,4 @@ The API follows standard RESTful principles.
 
 ---
 
-**Author:** [Your Name]
+**Author:** [Rayhan Ahmed](https://github.com/Rayhan-50)
